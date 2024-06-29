@@ -1,0 +1,97 @@
+.heros {
+  overflow: hidden;
+  background: url(/images/backbg1.jpg);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  
+  background-position: right;
+
+  position: relative;
+
+  h2 {
+    font-size: 30px;
+    color: rebeccapurple;
+    letter-spacing: 10px;
+  }
+  h1 {
+    /* font-size: 80px; */
+  }
+  .buttons {
+    button {
+      padding: 20px;
+      border: 1px solid white;
+      border-radius: 10px;
+      background-color: transparent;
+      color: white;
+      margin-right: 20px;
+      cursor: pointer;
+      font-weight: 300;
+    }
+  }
+}
+
+.slidingcontainer {
+  position: absolute;
+  font-size: 30vh;
+  bottom: -120px;
+  white-space: nowrap;
+  color: #ffffff09;
+  width: 50%;
+  font-weight: bold;
+}
+
+
+ .pic {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 5px solid #49caeb;
+  overflow: hidden;
+ 
+}
+
+/*image overlay*/
+.image_wrapper {
+  position: relative;
+}
+.overlay {
+  position: absolute; 
+  /* background: rgba(57, 57, 57, 0.5); */
+  background: rgba(74, 74, 74, 0.6);
+  
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay_0 {
+  left: 0;
+  top: 0;
+  padding: .5rem;
+  margin: 4px;
+  background: #f4208f;
+}
+
+.overlay_1 {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+.overlay_2 {
+/*   top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; */
+  inset: 0;
+}
+.overlay h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+/*end image overlay*/
