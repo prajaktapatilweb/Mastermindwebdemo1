@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import { Container, Grid } from '@mui/material';
+import { Box, Container, Grid, Typography } from '@mui/material';
 import Image from 'next/image';
 
 
@@ -56,9 +56,11 @@ const Single = ({ item }) => {
         <Grid item xs={12} sm={12} md={6}>
 
                     <motion.div className="textcontainer" style={{y}}>
-                        <h2>{item.title}</h2>
-                        <p>{item.desc}</p>
+                        <Typography component='h2' sx={{fontSize:{xs:40,sm:40,md:60}}}>{item.title}</Typography>
+                        <p style={{textAlign:'justify'}}>{item.desc}</p>
+                        <Box sx={{textAlign:'center'}}>
                         <button>See Demo</button>
+                        </Box>
                     </motion.div>
                     </Grid>
                     </Grid>
@@ -84,7 +86,10 @@ export default function Portfolio() {
     
             <div className='portfolio' ref={ref}>
                 <div className='progress'>
-                    <h1>Featured Works</h1>
+          <Typography component='h1' sx={{fontSize:{xs:50,sm:40,md:80}}}>
+          Featured Works
+</Typography>
+                    
                     <motion.div style={{ scaleX }} className='progressBar'>
 
                     </motion.div>

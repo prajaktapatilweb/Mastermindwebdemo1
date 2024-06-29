@@ -55,15 +55,18 @@ export default function Services() {
 }
   return (
 <>    
+<Hidden smDown>
 
 <div class="containers">
+
         {/* <hr/> */}
         <span> We focus on helping your brand grow <br></br>
           and move forward</span>
         <hr/>
     </div>
+    </Hidden>
 
-    <motion.div className="services" variants={variants} initial='initial' whileInView='animate'>
+    <motion.div className="services" variants={variants} initial='initial' animate='animate'>
         
         {/* <Container> */}
 
@@ -80,7 +83,7 @@ export default function Services() {
           </Grid>
         <Grid item xs={12} sm={12} md={7}>
 
-          <Typography component='h1' sx={{float:{xs:'center',sm:'center',md:'left'},fontSize:{xs:50,sm:40,md:80}, mt:{xs:-7,sm:-7,md:0}}}>
+          <Typography component='h1' sx={{float:{xs:'center',sm:'center',md:'left'},fontSize:{xs:50,sm:40,md:80}, mt:{xs:-1,sm:-1,md:0}}}>
             <motion.b whileHover={{color:'orange'}}>Unique</motion.b> Ideas
           </Typography>
         </Grid>
@@ -100,7 +103,7 @@ export default function Services() {
      
       </motion.div>
       <br/>
-      <motion.div className="services" variants={variants} initial='initial' whileInView='animate'>
+      <motion.div className="services" variants={variants} initial='initial' animate='animate'>
 
       <Container>
         <Grid container>

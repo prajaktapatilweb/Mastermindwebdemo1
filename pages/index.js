@@ -20,8 +20,6 @@ export default function Home() {
     <>
    <Cursor/>
   <Hero/>
-  
-
   <Parallax type="services"></Parallax>
   <Services/>
   <Parallax type="portfolio"></Parallax>
