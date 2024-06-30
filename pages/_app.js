@@ -4,12 +4,12 @@ import { CacheProvider } from "@emotion/react";
 import { createEmotionCache } from "../utils";
 import { MUIProvider } from "../providers";
 import "slick-carousel/slick/slick.css";
-import "../components/hero/hero.css";
-import "../components/parallax/parallax.css"
-import "../components/Services/services.css"
-import "../components/portfolio/portfolio.css"
-import "../components/contact/contact.css"
-import "../components/cursor/cursor.css"
+// import "../components/hero/hero.css";
+// import "../components/parallax/parallax.css"
+// import "../components/Services/services.css"
+// import "../components/portfolio/portfolio.css"
+// import "../components/contact/contact.css"
+// import "../components/cursor/cursor.css"
 import "../assets/css/style.css";
 import "slick-carousel/slick/slick-theme.css";
 
