@@ -65,7 +65,15 @@ export default function Hero() {
           <Typography variant="h1" component='h1'  sx={{fontSize:{xs:'50px',sm:'60px',md:'70px'}}} variants={textVariants}>Web Developer and UI Designer</Typography>
           </motion.div>
           <Box className="buttons">
-            <motion.button  variants={textVariants}>See The Latest Work</motion.button>
+            <motion.button  variants={textVariants} style={{padding: '20px',
+          border: '1px solid white',
+          borderRadius: '10px',
+          backgroundColor: 'transparent',
+          color: 'white',
+          marginRight:'20px',
+          cursor: 'pointer',
+          fontWeight: 300
+          }}>See The Latest Work</motion.button>
             <motion.button  variants={textVariants}>Contact Me dj</motion.button>
           </Box>
           <motion.img   variants={textVariants} animate="scrollbutton" src="/scroll.png" style={{marginBottom:20}}></motion.img>

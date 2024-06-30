@@ -1422,6 +1422,45 @@ section {
 
 
 }
+.herobuttons{
+       
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 300;
+
+
+}.herobuttons{
+       
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 300;
+
+
+}
+.buttons{
+       button{
+          padding: 20px;
+          border: 1px solid white;
+          border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          cursor: pointer;
+          font-weight: 300;
+       }
+      
+
+     }
  
 
     .textcontainer{
@@ -1447,19 +1486,7 @@ font-family:"DM Sans", sans-serif;
 
 
      }
-     .buttons{
-       button{
-          padding: 20px;
-          border: 1px solid white;
-          border-radius: 10px;
-          background-color: transparent;
-          color: white;
-          margin-right: 20px;
-          cursor: pointer;
-          font-weight: 300;
-       }
-
-     }
+     
   
 
   
