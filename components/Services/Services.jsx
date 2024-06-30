@@ -103,7 +103,7 @@ export default function Services() {
      
       </motion.div>
       <br/>
-      <motion.div className="services" variants={variants} initial='initial' whileInView='animate'>
+      <motion.div className="services" variants={variants} initial='initial' animate='animate'>
 
       <Container>
         <Grid container>

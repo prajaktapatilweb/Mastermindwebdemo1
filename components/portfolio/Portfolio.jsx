@@ -86,9 +86,9 @@ export default function Portfolio() {
     
             <div className='portfolio' ref={ref}>
                 <div className='progress'>
-          <Typography component='h1' sx={{fontSize:{xs:50,sm:40,md:80}}}>
+          <motion.Typography component='h1' variant='h1' sx={{fontSize:{xs:50,sm:40,md:80}}}>
           Featured Works
-</Typography>
+</motion.Typography>
                     
                     <motion.div style={{ scaleX }} className='progressBar'>
 

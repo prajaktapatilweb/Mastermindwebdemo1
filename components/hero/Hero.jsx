@@ -50,8 +50,8 @@ export default function Hero() {
     }
 
   return (
-      <Container>
     <div className="heros">
+      <Container>
 
         <Grid container>
         <Grid item xs={12} sm={12} md={6}>
@@ -60,9 +60,11 @@ export default function Hero() {
         animate="animate"
         >
         
-          <motion.h2  variants={textVariants}>Prajakta Patil</motion.h2>
+          <motion.h2   variants={textVariants}>Prajakta Patil</motion.h2>
           <motion.div>
-          <Typography variant="h1" component='h1'  sx={{fontSize:{xs:'50px',sm:'60px',md:'70px'}}} variants={textVariants}>Web Developer and UI Designer</Typography>
+
+          <Typography variant="h1" component='h1'  sx={{fontFamily:'DM Sans, sans-serif',
+            fontSize:{xs:'50px',sm:'60px',md:'70px'}}} variants={textVariants}>Web Developer and UI Designer</Typography>
           </motion.div>
           <Box className="buttons">
             <motion.button  variants={textVariants} style={{padding: '20px',
@@ -89,8 +91,9 @@ export default function Hero() {
         <Image src="/images/hero1.png" alt="abc" layout="responsive" width={100} height={100} objectFit="contain"></Image>
       </Grid>
       </Grid>
-      </div>
       </Container>
+
+      </div>
      
   );
 }
