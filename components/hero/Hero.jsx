@@ -1,6 +1,6 @@
 import React from "react";
 // import "./hero.scss";
-import { Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import {  motion } from "framer-motion";
 import Image from "next/image";
 
@@ -64,10 +64,10 @@ export default function Hero() {
           <motion.div>
           <Typography variant="h1" component='h1'  sx={{fontSize:{xs:'50px',sm:'60px',md:'70px'}}} variants={textVariants}>Web Developer and UI Designer</Typography>
           </motion.div>
-          <div className="buttons">
+          <Box className="buttons">
             <motion.button  variants={textVariants}>See The Latest Work</motion.button>
-            <motion.button  variants={textVariants}>Contact Me</motion.button>
-          </div>
+            <motion.button  variants={textVariants}>Contact Me dj</motion.button>
+          </Box>
           <motion.img   variants={textVariants} animate="scrollbutton" src="/scroll.png" style={{marginBottom:20}}></motion.img>
         </motion.div>
       </Grid>
